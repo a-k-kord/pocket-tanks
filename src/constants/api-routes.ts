@@ -2,7 +2,7 @@ export const BASE_URL = 'https://ya-praktikum.tech/api/v2';
 export const RESOURCES_BASE_URL = 'https://ya-praktikum.tech/api/v2/resources/';
 
 const IS_DEV = process.env.NODE_ENV === 'development';
-export const SERVER_DOMAIN = IS_DEV ? 'localhost:5000' : 'pocketanks.ru';
+export const SERVER_DOMAIN = IS_DEV ? 'localhost:5000' : 'pocketanks.westeurope.cloudapp.azure.com';
 export const SERVER_URL = `https://${SERVER_DOMAIN}`;
 
 export const YANDEX_OAUTH_AUTHORIZE_URL = 'https://oauth.yandex.ru/authorize?response_type=code';
